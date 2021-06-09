@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Regular"), url("./fonts/Lato-Regular.ttf") format("truetype");
+}
+
+.wrapper {
+  height: 75%;
+  margin-top: 10%;
+}
+
+html body {
+  background-color: rgb(245, 226, 208);
+  font-family: "Lato";
+  color: #865a3f;
+}
+
+.modes {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 3em;
+}
+
+.modes button {
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  font-family: "Lato";
+  color: #865a3f;
+}
+
+.card {
+  background-color: rgb(245, 226, 208);
+}
+
+.page-text {
+  text-align: center;
+}
+
+.word-input {
+  text-align: center;
+  color: #865a3f;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
